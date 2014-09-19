@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-A 12x8ft window into a world of pixelated hearts and flowing colors.
+Pixel Heart is a massive window into a pixelated world of beating hearts, kaleidoscope colors, and hours of visual delight.
 
 ♪ Pixels ♥ Beats ♪
