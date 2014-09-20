@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pixel Heart v2 Research
+permalink: pixelheartv2research
 ---
 
 Research on Pixel Heart v2 has begun. My goal with this iteration is to accomplish the following:
