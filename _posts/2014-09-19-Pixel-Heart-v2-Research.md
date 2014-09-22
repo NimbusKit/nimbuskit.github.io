@@ -23,7 +23,7 @@ As it seems to happen, Burning Man provided some inspiration this year with the 
 
 [![The Salsa Dome](/images/salsadome.jpg)](http://lightatplay.net/)
 
-I first saw the Salsa Dome in 2013 and thought it was wonderful, but I didn't connect the practicality of the panels at the time. After seeing it this year with Pixel Heart v2 churning in the background needless to say a bunch of LEDs turned on my head.
+I first saw the Salsa Dome in 2013 and thought it was wonderful, but I didn't connect the practicality of the panels at the time. After seeing it this year with Pixel Heart v2 churning in the background needless to say a bunch of LEDs turned on in my head.
 
 ## Taking Measurements
 
