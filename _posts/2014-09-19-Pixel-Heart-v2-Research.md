@@ -49,4 +49,6 @@ The [LGP spec sheet](http://lucitelux.com/wp-content/uploads/2014/02/LuciteLux_L
 
 Ok, what if we used the 6mm panels? At 53,512.15 cm<sup>3</sup> it's still 63.68kg.
 
-It's too heavy - and this doesn't even include the wiring/PCBs/LEDs. Disappointing, but on to the next idea!
+> 84.91 kg for the 8mm sheets or 63.68 kg for the 6mm sheets
+
+That means at least *four* suitcases just to transport the panels, not to mention the LEDs, power supplies, and cabling. It's way too heavy - and this doesn't even include the wiring/PCBs/LEDs. Disappointing, but on to the next idea!
