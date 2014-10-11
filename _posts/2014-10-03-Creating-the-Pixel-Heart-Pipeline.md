@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ♥♥♥ Heartbeat Issue 1.0.0 ♥♥♥
+title: ♥♪ Heartbeat Issue 1.0.0
 ---
 
 Electronics is a relatively new territory for me, having started tinkering with electronics in early 2012 (compared to designing software since 2001). Making the jump to manufacturing electronics is kind of like moving from designing static HTML websites to implementing a robust backend for a major international website:

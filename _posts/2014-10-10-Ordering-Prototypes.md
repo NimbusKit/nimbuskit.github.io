@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ♥♥♥ Heartbeat Issue 2.0.0 ♥♥♥
+title: ♥♪ Heartbeat Issue 2.0.0
 ---
 
 Over the past week I finalized the pcb schematics for the Pixel PCB and began ordering the components necessary to prototype the electronics. What follows is the result of many emails, phone calls, and a lot of time spent in IRC.
