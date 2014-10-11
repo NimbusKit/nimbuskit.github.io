@@ -27,7 +27,7 @@ This newsletter outlines progress of the new Pixel Heart in five major categorie
 - I will likely be thermoforming the cases rather than plastic injecting them.
 - I received 5 of the Worldsemi boards to test - here's a video of them in action:
 
-<video width="270" height="400" controls autoplay loop>
+<video width="270" height="400" controls autoplay loop muted>
   <source src="/images/issue2/pixelvid.mp4" type="video/mp4">
 </video>
 
