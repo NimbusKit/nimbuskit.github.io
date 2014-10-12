@@ -42,7 +42,7 @@ Goals for next week:
 
 I was fortunate enough to stumble upon the [Worldsemi 12-lamp LED circuit](http://www.world-semi.com/en/PCBA/Point_light_source/_84_12_lamp_5050_SMD_bo/) a few weeks back, but had no idea how it worked. In order to confidently design the PCB I wanted to understand why all of the parts were necessary, so I spent some evenings in the afternet #electronics and #sparkfun IRC channels asking questions.
 
-Two questions from [Hearbeat 1](/Creating-the-Pixel-Heart-Pipeline/) were resolved as a direct result.
+Two questions from [Heartbeat 1](/Creating-the-Pixel-Heart-Pipeline/) were resolved as a direct result.
 
 ### Answer: why does the original schematic contain a 5V power line?
 
