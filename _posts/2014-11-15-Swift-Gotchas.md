@@ -8,7 +8,7 @@ A collection of gotchas encountered while porting NimbusKit to Swift.
 
 ## Unable to use generic objects as delegates
 
-The compiler allows you to do so, but the Objective-C runtime will not know that the protocol methods are implemented. This results in unexpected behavior at best, or at worst run-time crashes due to unimplemented selectors - even though they are most certainly implemented.
+The compiler allows you to do so but the Objective-C runtime will not know that the protocol methods are implemented. This results in unexpected behavior at best. At worst you'll encounter run-time crashes due to unimplemented required selectors - even though they *are* implemented.
 
 This is likely due to the inability to declare Objective-C selectors for methods on generic classes in Swift.
 
