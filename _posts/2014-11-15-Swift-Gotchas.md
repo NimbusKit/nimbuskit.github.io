@@ -28,7 +28,7 @@ class DataSourceProvider <T: AnyObject> : NSObject, UITableViewDataSource {
     if let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? UITableViewCell {
       return cell
     }
-    return UITableViewCell(style: .Default, reuseIdentifier: reuseIdentifier) as UITableViewCell
+    return UITableViewCell(style: .Default, reuseIdentifier: reuseIdentifier)
   }
 }
 
