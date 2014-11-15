@@ -25,7 +25,7 @@ class DataSourceProvider <T: AnyObject> : NSObject, UITableViewDataSource {
 
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     let reuseIdentifier = "reuse"
-    if let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as UITableViewCell {
+    if let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? UITableViewCell {
       return cell
     }
     return UITableViewCell(style: .Default, reuseIdentifier: reuseIdentifier) as UITableViewCell
@@ -41,7 +41,6 @@ class DelegateViewController: UITableViewController {
     self.tableView.dataSource = self.provider
   }
 }
-
 ~~~
 {: .language-swift}
 
