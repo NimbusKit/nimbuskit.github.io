@@ -7,6 +7,30 @@ A collection of gotchas encountered while porting NimbusKit to Swift.
 
 <!-- more -->
 
+## Classes can't be cast as objects that conform to protocols
+
+Swift's type-safety generally leads to cleaner code at the expense of hackery that was possible in Objective-C.
+
+NimbusKit encouraged the following pattern when creating a `NITableViewModel`:
+
+~~~
+_model = [[NITableViewModel alloc] initWithSectionedArray:contents delegate:(id)[NICellFactory class]];
+~~~
+{: .language-objectivec}
+
+NICellFactory implemented `NITableViewModelDelegate` both as instance methods **and** as class methods. This treated `NICellFactory.class` like a singleton that implemented `NITableViewModelDelegate`. While convenient, it was not necessarily *safe*.
+
+In Swift you cannot do an `(id)` cast of a class to a protocol. This forced NimbusKit's new [TableCellFactory](https://github.com/NimbusKit/swift/blob/master/TableCellFactory.swift) class to provide a non-mutable singleton instance that could be used in place of the old `(id)[NICellFactory class]`. This had the nice side effect of eliminating duplicate code paths!
+
+The new way to create a model using the global `TableCellFactory` is as follows:
+
+~~~
+self.model = TableModel(sections: sections, delegate: TableCellFactory.tableModelDelegate())
+~~~
+{: .language-swift}
+
+`TableCellFactory` doesn't expose the singleton instance directly. Instead, it returns a `TableCellFactory`-conformant object. This hides the implementation of the singleton and ensures that the global `TableCellFactory` behaves consistenly in every setting.
+
 ## Unable to use generic objects as delegates
 
 The compiler allows you to do so but the Objective-C runtime will not know that the protocol methods are implemented. This results in unexpected behavior at best. At worst you'll encounter run-time crashes due to unimplemented required selectors - even though they *are* implemented.
