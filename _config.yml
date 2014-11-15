@@ -1,23 +1,23 @@
-name: The Pixel Heartbeat
+name: NimbusKit
 description: 
 avatar: https://avatars3.githubusercontent.com/u/3011454?v=2&s=200
 
 footer-links:
   dribbble: 
   email: 
-  facebook: pixelheartmusic
+  facebook:
   flickr: 
   github:
   instagram: 
   linkedin: 
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: pixelheartmusic
+  twitter: nimbuskit
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 disqus: 
-google_analytics: UA-40641885-1
-url: http://thepixelheart.github.io/
+google_analytics:
+url: http://nimbuskit.github.io/
 baseurl: ""
 
 markdown: kramdown
