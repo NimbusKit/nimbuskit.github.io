@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2014-11-15 17:00:00
 ---
 
 A collection of gotchas encountered while porting NimbusKit to Swift.
@@ -47,3 +48,5 @@ class DelegateViewController: UITableViewController {
 If you attempt to display this controller the app will crash due to an "unrecognized selector sent to instance".
 
 Making the class non-generic will allow you to use instances as delegates as expected.
+
+This has impacted the way NimbusKit's [TableActions](https://github.com/NimbusKit/swift/blob/master/TableActions.swift) are implemented. Due to the above limitation, TableActions can't take advantage of generics. *sadpanda*
